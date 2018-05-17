@@ -1,0 +1,116 @@
+#container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family:monospace;
+    font-size: 40px;
+    color:white;
+    opacity: 0.89;
+    background-color: #aaa;
+    text-align: center;
+}
+
+body {
+    background: url("main-cover.jpg");
+    
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+input[type="text"],input[type="email"],input[type="tel"],
+textarea {
+    padding: 10px;
+    display: block;
+    width: 93%;
+    font-size: 14px;
+    color: black;
+    font-family: Monaco,monospace;
+    text-transform: uppercase;
+    border: solid 1.5px #aaa;
+    margin: 0 0 15px 0;
+    resize: none;
+}
+
+fieldset {
+    padding: 50px;
+    border: solid 1px #aaa;
+   background-color: white;
+    background-position: center;
+    background-size: cover;
+    opacity: 0.95;
+    
+}
+
+fieldset legend {
+    background-color: white;
+    padding: 10px;
+    border: solid 1px #aaa;
+}
+
+input[type="submit"] {
+    background-color: white;
+    color: black;
+    padding: 8px;
+    margin-left: 35%;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+input[type="submit"]:hover{
+    background-color: #aaa;
+    color: white;
+    opacity: 0.75;
+}
+
+
+input[type="email"]:focus {
+    border-left: solid 5px orangered;
+    transition: all 0.3s ease;
+}
+
+
+input[type="text"]:focus {
+    border-left: solid 5px orangered;
+    transition: all 0.3s ease;
+}
+
+input[type="tel"]:focus {
+    border-left: solid 5px orangered;
+    transition: all 0.3s ease;
+}
+
+textarea:focus {
+    border-left: solid 5px orangered;
+    transition: all 0.3s ease;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
